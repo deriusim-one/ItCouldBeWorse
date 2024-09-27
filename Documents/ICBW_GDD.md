@@ -26,16 +26,20 @@ conditions.
 
 ### Core Gameplay Loop:
 
-1. **Exploration (Calm):**
-	- Gather natural resources (wood, <font color="red">food</font>, tools, materials).
-	- Interact with the environment (build shelters, prepare the campfire).
-	- Prepare for the impending storm.
+The game alternates between two states: **calm** (<font color="red">180 seconds</font>) and **storm** (<font color="red">120 seconds</font>).
+1. During **calm**, the player can **explore** the environment, gather resources, and prepare.
+2. During the **storm**, the player must stay near the fire to **survive** the freezing cold and manage resources like wood to keep the fire burning.
+
+#### Exploration (Calm)
+- Gather natural resources (wood, <font color="red">food</font>, tools, materials).
+- Interact with the environment (build shelters, prepare the campfire).
+- Prepare for the impending storm.
 	
-2. **Survival (Storm):**
-	- Stay near the campfire to maintain body temperature.
-	- Manage the consumption of wood to keep the fire going.
-	- Face threats (enemies, weather events, structural damage).
-	- <font color="red">Craft tools and necessary repairs.</font>
+#### Survival (Storm)
+- Stay near the campfire to maintain body temperature.
+- Manage the consumption of wood to keep the fire going.
+- Face threats (enemies, weather events, structural damage).
+- <font color="red">Craft tools and necessary repairs.</font>
 
 ### Core Mechanics:
 
