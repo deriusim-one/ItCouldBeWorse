@@ -24,6 +24,78 @@ conditions.
 
 ## Gameplay Mechanics
 
+Here is the list of main features translated into English:
+
+### Main Features
+
+#### 1. **Day/Night Cycle (Calm and Storm)**
+   - **Description:** Implementation of the alternating cycle between calm and storm phases. During calm (day),
+   - the player can explore, gather resources, and prepare. During the storm (night), the player must survive 
+   - near the campfire.
+   - **Specific Features:**
+     - Timer for phase duration.
+     - Visual transitions (e.g., changes in lighting and weather conditions).
+
+#### 2. **Temperature Management**
+   - **Description:** The player must maintain an optimal body temperature to avoid damage or death. The 
+   - temperature drops during the storm and is restored by staying close to the fire.
+   - **Specific Features:**
+     - Player temperature indicator (HUD).
+     - Temperature effects on gameplay (e.g., movement slowing down, health loss).
+
+#### 3. **Resource Gathering System**
+   - **Description:** During the calm phase, the player can gather resources such as wood, food, and materials
+   - to craft items or repair structures.
+   - **Specific Features:**
+     - Different types of resources with unique properties (wood for the fire, food for health recovery).
+     - Specific gathering areas (forest, cave, frozen lake).
+
+#### 4. **Crafting System**
+   - **Description:** The player can use gathered resources to create tools, upgrade structures, or repair the
+   - campfire.
+   - **Specific Features:**
+     - Crafting menu with recipes for various items.
+     - Craftable tools that affect activities (e.g., axe for chopping trees).
+
+#### 5. **Campfire Management**
+   - **Description:** The campfire is the focal point of survival during storms. The player must keep the fire
+   - burning to maintain warmth.
+   - **Specific Features:**
+     - Consumption of wood to keep the fire going.
+     - Visual and audio indicators of the fire's level.
+
+#### 6. **Dynamic Threats**
+   - **Description:** During storms, the player may face random events such as strong winds, snowfall, or animal
+   - attacks.
+   - **Specific Features:**
+     - Management of dynamic events that require quick actions.
+     - Impact of threats on the campfire or structures (e.g., extinguishing the fire, damaging the shelter).
+
+#### 7. **Exploration and Diverse Biomes**
+   - **Description:** The world is divided into unique biomes with different resources and dangers (forest, 
+   - cave, frozen lake).
+   - **Specific Features:**
+     - Variety of resources and wildlife in each biome.
+     - Unique exploration mechanics for each area (e.g., the ice on the lake can break).
+
+#### 8. **HUD and User Interface**
+   - **Description:** The user interface displays key information such as health, temperature, inventory, and
+   - the game phase timer.
+   - **Specific Features:**
+     - Dynamic inventory display.
+     - Indicators for the game cycle and temperature.
+
+#### 9. **Progression and Upgrades**
+   - **Description:** Possibility to improve the character's abilities, structures, or tools to face future 
+   - storms.
+   - **Specific Features:**
+     - Progression system that rewards the player for surviving.
+     - Gradual unlocking of new crafting recipes or upgrades.
+
+These features cover the main mechanics and essential dynamics needed to create the survival experience 
+envisioned for the game. We can expand or modify the list based on further details or ideas that may arise
+during development.
+
 ### Core Gameplay Loop:
 
 The game alternates between two states: **calm** (<font color="red">180 seconds</font>) and **storm** (<font color="red">120 seconds</font>).
