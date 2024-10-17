@@ -10,13 +10,9 @@
 
 **Target Audience:** Players who enjoy survival games, both casual and hardcore (ages 12+)
 
-**Theme:** Survival in a harsh environment characterized by alternating cycles of ***calm*** and ***storms***, 
-with resource management and strategies to face severe weather conditions.
+**Theme:** Survival in a harsh environment characterized by alternating cycles of ***calm*** and ***storms***, with resource management and strategies to face severe weather conditions.
 
-**High Concept:** The player must survive in an environment where calm (day) and storm (night) cycles challenge 
-their ability to gather resources and survive. During the calm, they can explore, gather resources, and prepare 
-for the storm. During the storm, they must stay near the fire to keep warm and find ways to survive the adverse 
-conditions.
+**High Concept:** The player must survive in an environment where calm (day) and storm (night) cycles challenge their ability to gather resources and survive. During the calm, they can explore, gather resources, and prepare for the storm. During the storm, they must stay near the fire to keep warm and find ways to survive the adverse conditions.
 
 **Inspiration:** Dome Keeper, Don't Starve, DREDGE, Subnautica.
 
@@ -137,3 +133,43 @@ The game alternates between two states: **calm** (<font color="red">180 seconds<
 - Possible encounters with **animals** or **creatures** that approach the fire or attack the player.
 
 ## Player Mechanics
+
+--
+ 
+## Technical Specifications
+
+### **Minimum Requirements**
+   - **Operating System:** Windows 7/8/10/11 (64-bit)
+   - **Processor:** Intel Core i3-3220 / AMD FX-6300
+   - **RAM:** 4 GB
+   - **Graphics Card:** NVIDIA GeForce GTX 660 / AMD Radeon HD 7870 (2 GB VRAM)
+   - **DirectX:** Version 11
+   - **Storage:** 5 GB available space
+
+### **Recommended Requirements**
+   - **Operating System:** Windows 10/11 (64-bit)
+   - **Processor:** Intel Core i5-8400 / AMD Ryzen 5 2600
+   - **RAM:** 8 GB
+   - **Graphics Card:** NVIDIA GeForce GTX 1060 / AMD Radeon RX 580 (4-6 GB VRAM)
+   - **DirectX:** Version 11 or higher
+   - **Storage:** 5 GB available space
+
+### **Scalable Graphics Options**
+   - **Graphics settings:** Allow players to adjust details such as texture quality, visual effects, resolution, and shadows. This will ensure a 
+   - good experience on lower-end systems while reducing GPU and CPU load.
+   - **Dynamic resolution:** Implement dynamic resolution scaling to maintain a target frame rate.
+   - **Widescreen and ultrawide support:** Compatibility with different screen resolutions, up to 4K for more powerful systems.
+
+### Recommended Resolutions
+- **1280x720 (HD)** for basic configurations.
+- **1920x1080 (Full HD)** as the main standard.
+- **2560x1440 (QHD)** for mid-range setups.
+- **3840x2160 (4K)** for high-end systems.
+- **Ultrawide 21:9 and 32:9** for extended aspect ratio monitors.
+- 
+### Other Considerations
+- **Level of detail management**.
+- **DirectX 11:** Still the standard for many configurations, ensuring compatibility with a wide range of graphics cards.
+- **Testing on lower-end hardware:** Make sure the game is tested on machines with the minimum specs to ensure a smooth gaming experience.
+- **Dynamic Resolution Scaling:** Implementing a dynamic resolution system can help maintain the target frame rate by automatically reducing the rendering resolution during complex scenes and restoring it when possible.
+- <font color="red">**Upscaling with AMD FidelityFX Super Resolution (FSR) or NVIDIA DLSS:** These upscaling technologies improve performance while maintaining good visual quality.</font>
