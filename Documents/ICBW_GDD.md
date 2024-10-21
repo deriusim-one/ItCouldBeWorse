@@ -168,8 +168,7 @@ The game alternates between two states: **calm** (<font color="red">180 seconds<
 - **Ultrawide 21:9 and 32:9** for extended aspect ratio monitors.
 - 
 ### Other Considerations
-- **Level of detail management**.
+- **Level of detail management**. Not needed. The game use a top down fixed camera and all 3D models are lowpoly</font>
 - **DirectX 11:** Still the standard for many configurations, ensuring compatibility with a wide range of graphics cards.
 - **Testing on lower-end hardware:** Make sure the game is tested on machines with the minimum specs to ensure a smooth gaming experience.
 - **Dynamic Resolution Scaling:** Implementing a dynamic resolution system can help maintain the target frame rate by automatically reducing the rendering resolution during complex scenes and restoring it when possible.
-- <font color="red">**Upscaling with AMD FidelityFX Super Resolution (FSR) or NVIDIA DLSS:** These upscaling technologies improve performance while maintaining good visual quality.</font>
